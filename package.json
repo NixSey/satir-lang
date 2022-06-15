@@ -1,10 +1,10 @@
 {
-  "name": "jaksel-language",
-  "version": "1.1.0",
-  "description": "Jaksel programming language",
-  "main": "jaksel-interpreter.js",
+  "name": "satir-lang",
+  "version": "1.0.0",
+  "description": "Satir programming language",
+  "main": "satir-interpreter.js",
   "bin": {
-    "jaksel": "./jaksel-interpreter.js"
+    "satir": "./satir-interpreter.js"
   },
   "scripts": {
     "test": "jest"
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RioChndr/jaksel-language.git"
+    "url": "git+https://github.com/NixSey/satir-lang.git"
   },
-  "author": "Rio Chandra",
+  "author": "NixSey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RioChndr/jaksel-language/issues"
+    "url": "https://github.com/NixSey/satir-lang/issues"
   },
-  "homepage": "https://github.com/RioChndr/jaksel-language#readme",
+  "homepage": "https://github.com/NixSey/satir-lang#readme",
   "devDependencies": {
     "jest": "^27.5.1"
   }
