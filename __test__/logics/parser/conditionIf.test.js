@@ -22,8 +22,8 @@ describe('Test Condition If', () => {
   it('Should return correctly flexing', () => {
     const jsFormat = getJsFormat(`
       kalo foo itu 123
-        spill "its 123"
-      udahan
+        satirin "its 123"
+      turu
     `)
     expect(jsFormat).not.toBeNull()
     let shouldMatch = [
