@@ -1,6 +1,6 @@
-# Jaksel Script
+# Satir Script
 
-Jaksel Script is a new programming language, very modern, easy to learn, using Indonesia-slang language. No programming experience required.
+Satir Script is a new programming language, very modern, easy to learn, using Indonesia-slang language. No programming experience required.
 
 Thank you for all your contributions, share, star, and everything.
 
@@ -8,30 +8,30 @@ Thank you for all your contributions, share, star, and everything.
 
 Install from npm
 ```bash
-npm install -g jaksel-language
+npm install -g satir-lang
 ```
 Or Clone this repository
 
 ```bash
-git clone https://github.com/RioChndr/jaksel-language.git
+git clone https://github.com/NixSey/satir-lang.git
 ```
 
 ### Run
 
-If you install from npm, run jaksel script using `jaksel` command
+If you install from npm, run jaksel script using `satir` command
 
 ```bash
-jaksel example/example1.jaksel
+satir example/example1.str
 ```
 
 Or run from this repository
 ```
-node jaksel-interpreter.js example/example1.jaksel
+node satir-interpreter.js example/example1.str
 ```
 
 ## Table Of Content
 
-* [Jaksel Script](#jaksel-script)
+* [Satir Script](#satir-script)
    * [Instalation &amp; Run](#instalation--run)
    * [Table Of Content](#table-of-content)
    * [Example](#example)
@@ -92,6 +92,3 @@ This project just for fun, I don't want to hurt anyone. Just from idea "what if 
 ## Showcase
 
 Some cool project from you, submit your project like highlight text, jaksel-to-js, etc. Make PR link to your repo !. Don't limit your creativity
-
-### Highlight Text Editor
-- [vim-jaksel](https://github.com/cocatrip/vim-jaksel) jaksel programming language plugin for (n)vim
