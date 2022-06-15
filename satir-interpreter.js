@@ -8,7 +8,7 @@ const parseArgs = () => {
 
   if (args.length < 3) {
     console.log(
-      "Require file args, ex: 'node jaksel-interpreter.js example/example1.jaksel' or 'jaksel example/example1.jaksel'"
+      "Require file args, ex: 'node satir-interpreter.js example/example1.str' or 'satir example/example1.str'"
     );
     return false;
   }
@@ -26,7 +26,7 @@ if (!parseArgs()) {
   process.exit(1);
 }
 
-const inputJaksel = fs.readFileSync(fileLocate, "utf-8");
+const inputSatir = fs.readFileSync(fileLocate, "utf-8");
 
-const result = flexing(inputJaksel);
+const result = flexing(inputSatir);
 execCmd(result);
